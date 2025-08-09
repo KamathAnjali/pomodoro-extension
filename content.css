@@ -1,0 +1,35 @@
+#pomodoro-timer-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #222;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000;
+  z-index: 999999;
+  user-select: none;
+}
+
+#pomodoro-timer-display {
+  font-size: 24px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+#pomodoro-timer-container button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #444;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+#pomodoro-timer-container button:disabled {
+  background-color: #666;
+  cursor: not-allowed;
+}
